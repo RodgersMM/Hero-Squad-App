@@ -17,9 +17,17 @@ public class Hero {
         mId = heroes.size();
     }
 
-    //Method to get Names
+    //Method to get Hero Names
     public String getName() {
         return mName;
+    }
+
+    //Method to get Hero size
+    public int getSize() {
+        return mSize;
+    }
+
+
 
 
 
