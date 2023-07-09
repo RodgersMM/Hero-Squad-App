@@ -36,7 +36,14 @@ public class Squad {
         return mCause;
     }
 
+    //Method to get Squad list
+    public static List<Squad> all() {
+        return instances;
+    }
+
     //
+
+
 
 
 
