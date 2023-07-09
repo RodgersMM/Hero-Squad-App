@@ -42,6 +42,15 @@ public class Hero {
         instances.clear();
     }
 
+    //Method to get Hero Id
+    public int getId() {
+        return mId;
+    }
+
+
+
+
+
 
 
 
