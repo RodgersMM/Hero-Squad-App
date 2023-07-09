@@ -22,60 +22,12 @@ public class Hero {
         return mName;
     }
 
-    //Method to get Hero size
-    public int getSize() {
-        return mSize;
+    //Method to get Hero Age
+    public int getAge() {
+        return mAge;
     }
 
-    // Method to get Hero cause
-    public String getCause() {
-        return mCause;
-    }
-
-    //Method to list squad
-    public static List<Squad> all() {
-        return instances;
-    }
-
-    //Method to clear
-    public static void clear() {
-        instances.clear();
-    }
-
-    //Method to get Hero Id
-    public int getId() {
-        return mId;
-    }
-
-    // Method to find Id
-    public static Squad find(int id) {
-        return instances.get(id - 1);
-    }
-
-    //Method to list Heroes
-    public List<Hero> getHeroes() {
-        return mHeroes;
-    }
-
-    //Method to add a Hero
-    public void addHero(Hero hero) {
-        mHeroes.add(hero);
-    }
-
-    //Method to check if Hero exists
-    public static boolean heroAlreadyExists(Hero newHero) {
-        boolean exists = false;
-        for (Squad squad : instances) {
-            for (Hero hero : squad.getHeroes()) {
-                if (hero.getName().equals(newHero.getName())) {
-                    exists = true;
-                }
-            }
-        }
-        return exists;
-    }
-}
-
+    //
 
 
 
