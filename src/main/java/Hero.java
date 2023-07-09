@@ -32,6 +32,16 @@ public class Hero {
         return mCause;
     }
 
+    //Method to list squad
+    public static List<Squad> all() {
+        return instances;
+    }
+
+
+
+
+
+
 
 
 
