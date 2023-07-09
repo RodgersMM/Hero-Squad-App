@@ -47,6 +47,17 @@ public class Hero {
         return heroes;
     }
 
+    // Method to clear
+    public static void clear() {
+        heroes.clear();
+    }
+
+    // Method to find Hero using Id
+    public static Hero find(int id) {
+        return heroes.get(id - 1);
+    }
+}
+
 
 
 
