@@ -37,6 +37,14 @@ public class Hero {
         return mWeakness;
     }
 
+    //Method to get Hero Id
+    public int getId() {
+        return mId;
+    }
+
+
+
+
 
 
 
