@@ -41,6 +41,11 @@ public class Squad {
         return instances;
     }
 
+    //Method to clear Squad
+    public static void clear() {
+        instances.clear();
+    }
+
     //
 
 
