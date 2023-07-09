@@ -16,3 +16,13 @@ public class Hero {
         heroes.add(this);
         mId = heroes.size();
     }
+
+    //Method to get Names
+    public String getName() {
+        return mName;
+
+
+
+
+
+
