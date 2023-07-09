@@ -118,26 +118,16 @@ public class App {
                     model.put("sizeMet", sizeMet);
                 }
 
-                //
+                // Add Hero if they don't exist
 
+                else{
+                    squad.addHero(newHero);
+                }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                model.put("squad", squad);
+                model.put("template", "templates/squadHeroesSuccess.vtl");
+                return new ModelAndView(model, layout);
+            }, new VelocityTemplateEngine());
 
         }
 
