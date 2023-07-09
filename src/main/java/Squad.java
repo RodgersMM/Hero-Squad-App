@@ -61,6 +61,13 @@ public class Squad {
         return mHeroes;
     }
 
+    // Method to add Hero to squad
+    public void addHero(Hero hero) {
+        mHeroes.add(hero);
+    }
+
+
+
 
 
 
