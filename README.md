@@ -11,6 +11,14 @@ HSA is A Java web-based application that allows a users to recruit a well-balanc
  * In addition, the Hero must have a name,  max size, and a cause. 
  * Lastly, a Hero can only participate at one squad at a time. 
  
+ ### 3. How Hero Squad App (HSA) Works
+ 
+To create a well-balanced team, the user has to do the following: 
+* Add a new squad
+* Add a new Hero to the squad created
+* Add squad name, size, and a cause
+* View a list of added squads
+* View a list of heroes in a squad
  
  
  
