@@ -49,6 +49,13 @@ public class App {
                 return new ModelAndView(model, layout);
             }, new VelocityTemplateEngine());
 
+            //Create a route to the form for adding new squads
+
+            get("squads/new", (request, response) -> {
+                Map<String, Object> model = new HashMap<String, Object>();
+                model.put("template", "templates/squadForm.vtl");
+                return new ModelAndView(model, layout);
+            }, new VelocityTemplateEngine());
 
 
 
@@ -56,6 +63,12 @@ public class App {
 
 
 
-    }
+
+
+
+
+
+
+        }
 
 }
