@@ -47,6 +47,13 @@ public class Hero {
         return mId;
     }
 
+    // Method to find Id
+    public static Squad find(int id) {
+        return instances.get(id - 1);
+    }
+
+    //
+
 
 
 
