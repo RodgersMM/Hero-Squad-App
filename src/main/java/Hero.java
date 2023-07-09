@@ -52,7 +52,19 @@ public class Hero {
         return instances.get(id - 1);
     }
 
-    //
+    //Method to list Heroes
+    public List<Hero> getHeroes() {
+        return mHeroes;
+    }
+
+    //Method to add a Hero
+    public void addHero(Hero hero) {
+        mHeroes.add(hero);
+    }
+
+
+
+
 
 
 
