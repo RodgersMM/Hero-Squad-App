@@ -42,6 +42,12 @@ public class Hero {
         return mId;
     }
 
+    // Method to list Hero
+    public static List<Hero> all() {
+        return heroes;
+    }
+
+
 
 
 
