@@ -26,7 +26,13 @@ public class Squad {
         return mName;
     }
 
+    //Method to get Squad Size
+    public int getSize() {
+        return mSize;
+    }
+
     //
+
 
 
 
