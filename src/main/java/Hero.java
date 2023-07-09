@@ -27,6 +27,14 @@ public class Hero {
         return mSize;
     }
 
+    // Method to get Hero cause
+    public String getCause() {
+        return mCause;
+    }
+
+
+
+
 
 
 
