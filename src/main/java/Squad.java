@@ -51,6 +51,13 @@ public class Squad {
         return mId;
     }
 
+    //Method to find Squad using Id
+    public static Squad find(int id) {
+        return instances.get(id - 1);
+    }
+
+
+
 
 
 
