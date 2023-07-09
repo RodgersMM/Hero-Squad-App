@@ -11,6 +11,19 @@ public class Squad {
     private int mId;
     private List<Hero> mHeroes;
 
+    //Adding Squad class constructor
+    public Squad(String name, int size, String cause) {
+        mName = name;
+        mSize = size;
+        mCause = cause;
+        instances.add(this);
+        mId = instances.size();
+        mHeroes = new ArrayList<Hero>();
+    }
+
+
+
+
 
 
 }
