@@ -56,6 +56,12 @@ public class Squad {
         return instances.get(id - 1);
     }
 
+    //Method to list heroes in squad
+    public List<Hero> getHeroes() {
+        return mHeroes;
+    }
+
+
 
 
 
