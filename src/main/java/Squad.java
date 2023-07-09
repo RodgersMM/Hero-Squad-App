@@ -21,6 +21,13 @@ public class Squad {
         mHeroes = new ArrayList<Hero>();
     }
 
+    //Method to get Squad Name
+    public String getName() {
+        return mName;
+    }
+
+    //
+
 
 
 
