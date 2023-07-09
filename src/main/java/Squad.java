@@ -31,6 +31,11 @@ public class Squad {
         return mSize;
     }
 
+    //Method to get Squad cause
+    public String getCause() {
+        return mCause;
+    }
+
     //
 
 
