@@ -27,7 +27,18 @@ public class Hero {
         return mAge;
     }
 
-    //
+    //Method to get Hero's power (Strength)
+    public String getPower() {
+        return mPower;
+    }
+
+    // Method to get Hero's weakness
+    public String getWeakness() {
+        return mWeakness;
+    }
+
+
+
 
 
 
