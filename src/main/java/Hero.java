@@ -62,6 +62,22 @@ public class Hero {
         mHeroes.add(hero);
     }
 
+    //Method to check if Hero exists
+    public static boolean heroAlreadyExists(Hero newHero) {
+        boolean exists = false;
+        for (Squad squad : instances) {
+            for (Hero hero : squad.getHeroes()) {
+                if (hero.getName().equals(newHero.getName())) {
+                    exists = true;
+                }
+            }
+        }
+        return exists;
+    }
+}
+
+
+
 
 
 
