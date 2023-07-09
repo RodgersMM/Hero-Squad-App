@@ -46,7 +46,13 @@ public class Squad {
         instances.clear();
     }
 
-    //
+    //Method to get Squad Id
+    public int getId() {
+        return mId;
+    }
+
+
+
 
 
 
