@@ -19,6 +19,20 @@ To create a well-balanced team, the user has to do the following:
 * Add squad name, size, and a cause
 * View a list of added squads
 * View a list of heroes in a squad
+
+## Technical Information
+
+### 1. Technologies Used
+The HSA is written in java (java-spark framework), HTML and CSS.
+
+### 2. Technical Requirements 
+To use the HSA app, the user need to have access to a gadget with access to internet. 
+Either wifi or mobile data internet connection will work. 
+
+### 3. User Skills
+There are no special technical skills for users to use the HSA. 
+Anyone can use this app so long as you follow the procedures. 
+ 
  
  
  
