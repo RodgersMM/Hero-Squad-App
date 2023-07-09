@@ -76,6 +76,17 @@ public class App {
                 return new ModelAndView(model, layout);
             }, new VelocityTemplateEngine());
 
+            //Route to display squads returned by find method in class Hero
+            get("/squads/:id",(request, response) -> {
+                Map<String, Object> model = new HashMap<String, Object>();
+                Squad squad = Squad.find(Integer.parseInt(request.params(":id")));
+                model.put("squad", squad);
+                model.put("template", "templates/squad.vtl");
+                return new ModelAndView(model, layout);
+            }, new VelocityTemplateEngine());
+
+            //
+
 
 
 
